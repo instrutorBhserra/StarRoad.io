@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Pista.vox-dec97c696c5fdf659cd2d5f9c5a6bfee.mesh"
+
+[deps]
+
+source_file="res://Assets/Voxel/Tiles/Pista.vox"
+dest_files=[ "res://.import/Pista.vox-dec97c696c5fdf659cd2d5f9c5a6bfee.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

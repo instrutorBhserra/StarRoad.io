@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Cruz.vox-7d9bc188b8726980d35b25b28a843d64.mesh"
+
+[deps]
+
+source_file="res://Assets/Voxel/Cruz.vox"
+dest_files=[ "res://.import/Cruz.vox-7d9bc188b8726980d35b25b28a843d64.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Gonk.vox-a3e43eadad333c40b90580a7734bf6f0.mesh"
+
+[deps]
+
+source_file="res://Assets/3D/Gonk/Gonk.vox"
+dest_files=[ "res://.import/Gonk.vox-a3e43eadad333c40b90580a7734bf6f0.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false
