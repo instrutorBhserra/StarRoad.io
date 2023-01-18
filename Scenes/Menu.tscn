@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Themes/Button.tres" type="Theme" id=1]
 [ext_resource path="res://Themes/Label.tres" type="Theme" id=2]
+[ext_resource path="res://Scripts/Menu.gd" type="Script" id=3]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 3 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 1024.0
@@ -35,17 +37,20 @@ margin_top = 31.0
 margin_right = 598.0
 margin_bottom = 169.0
 
-[node name="Button" type="Button" parent="CenterContainer2/VBoxContainer"]
+[node name="btn_play" type="Button" parent="CenterContainer2/VBoxContainer"]
 margin_right = 173.0
 margin_bottom = 67.0
 theme = ExtResource( 1 )
 custom_colors/font_color = Color( 0.811765, 0.188235, 0.188235, 1 )
 text = "Play"
 
-[node name="Button2" type="Button" parent="CenterContainer2/VBoxContainer"]
+[node name="btn_credits" type="Button" parent="CenterContainer2/VBoxContainer"]
 margin_top = 71.0
 margin_right = 173.0
 margin_bottom = 138.0
 theme = ExtResource( 1 )
 custom_colors/font_color = Color( 0.780392, 0.172549, 0.172549, 1 )
 text = "Credits"
+
+[connection signal="pressed" from="CenterContainer2/VBoxContainer/btn_play" to="." method="_on_btn_play_pressed"]
+[connection signal="pressed" from="CenterContainer2/VBoxContainer/btn_credits" to="." method="_on_btn_credits_pressed"]
